@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/drawable/ic_baseline_wb_sunny_24.xml" value="0.1595" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1595" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/drawable/ic_round_add_24.xml" value="0.1595" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/drawable/ic_round_arrow_back_24.xml" value="0.1595" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/drawable/ic_round_delete_forever_24.xml" value="0.1595" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/drawable/ic_round_location_24.xml" value="0.1595" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/drawable/ic_round_location_on_24.xml" value="0.1595" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/drawable/ic_round_search_24.xml" value="0.1595" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/drawable/item_my_city_rv.xml" value="0.1595" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/layout/activity_manage_city.xml" value="0.3233695652173913" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/layout/activity_splash.xml" value="0.3233695652173913" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/layout/dialog_add_city.xml" value="0.4221411192214112" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/layout/dialog_city.xml" value="0.3233695652173913" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/layout/dialog_daily_detail.xml" value="0.3233695652173913" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/layout/dialog_hourly_detail.xml" value="0.3233695652173913" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/layout/item_daily_rv.xml" value="0.3233695652173913" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/layout/item_hourly_rv.xml" value="0.3233695652173913" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/layout/item_lifestyle_rv.xml" value="0.3233695652173913" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/layout/item_my_city_rv.xml" value="0.3233695652173913" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/layout/item_recommend_city.xml" value="0.3233695652173913" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/layout/item_search_city_rv.xml" value="0.3233695652173913" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/layout/item_text_rv.xml" value="0.3233695652173913" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/menu/menu_main.xml" value="0.3625" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1595" />
+        <entry key="..\:/code/android/TestStudy/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1595" />
+        <entry key="..\:/code/android/TestStudy/library/src/main/res/drawable/shape_loading_bg.xml" value="0.1595" />
+        <entry key="..\:/code/android/TestStudy/library/src/main/res/layout/dialog_loading.xml" value="0.3233695652173913" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

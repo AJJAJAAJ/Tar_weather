@@ -45,10 +45,10 @@ public class LoadingView extends androidx.appcompat.widget.AppCompatImageView {
     @Override
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
-        if (mRunnable==null){
-            mRunnable=new LoadingRunnable(this);
+        if (mRunnable == null) {
+            mRunnable = new LoadingRunnable(this);
         }
-        if (!mRunnable.isLoading){
+        if (!mRunnable.isLoading) {
             mRunnable.start();
         }
     }
@@ -59,10 +59,10 @@ public class LoadingView extends androidx.appcompat.widget.AppCompatImageView {
     @Override
     protected void onDetachedFromWindow() {
         super.onDetachedFromWindow();
-        if (mRunnable!=null){
+        if (mRunnable != null) {
             mRunnable.stop();
         }
-        mRunnable=null;
+        mRunnable = null;
     }
 
     class LoadingRunnable implements Runnable {
@@ -82,8 +82,8 @@ public class LoadingView extends androidx.appcompat.widget.AppCompatImageView {
                 mDegrees += 30f;
                 mMatrix.setRotate(mDegrees, mCenterRotateX, mCenterRotateY);
                 mLoadingViewSoftReference.get().setImageMatrix(mMatrix);
-                if (mDegrees==360){
-                    mDegrees=0f;
+                if (mDegrees == 360) {
+                    mDegrees = 0f;
                 }
                 if (isLoading) {
                     mLoadingViewSoftReference.get().postDelayed(mLoadingViewSoftReference.get().mRunnable, 100);

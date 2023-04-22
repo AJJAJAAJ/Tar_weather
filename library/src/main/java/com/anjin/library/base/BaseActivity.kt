@@ -6,6 +6,7 @@ import android.content.pm.PackageManager
 import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.view.WindowInsetsController
 import android.view.WindowManager
@@ -121,6 +122,7 @@ open class BaseActivity : AppCompatActivity() {
         if (mDialog == null) {
             mDialog = Dialog(mContext!!, R.style.loading_dialog)
         }
+        Log.d("anjin", "mDialog is $mDialog")
         mDialog!!.setContentView(R.layout.dialog_loading)
         mDialog!!.setCancelable(true)
         mDialog!!.window!!.setBackgroundDrawableResource(R.color.transparent)
